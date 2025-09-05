@@ -28,6 +28,7 @@ const New=() => {
             leftChild={<Button text={"< 뒤로 가기"} onClick={goBack}/>}/>
             <Editor initData={new Date()} onSubmit={onSubmit}/>
         </div>
+        // 상단 메뉴바
     )
 };
 export default New;
